@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+:root {
+    --amarelogemal: #d6d670;
+    --roxogemal: #a060e0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Acme", sans-serif;
+    letter-spacing: 1px;
+    background-color: #201b2c;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #2f2841;
+    color: var(--amarelogemal);
+    border-radius: 05px;
+}
+header ul{
+    display: flex;
+    gap: 25px;
+    margin: 20px
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: var(--amarelogemal);
+}
+.button {
+    background-color: var(--amarelogemal);
+    color: #201b2c;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: "Acme", sans-serif;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    font-size: 13px;
+    position: absolute;
+    z-index: 1;
+    min-width: 150px;
+    background-color: #201b2c;
+    border: 2px solid var(--amarelogemal);
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: 0px 8px 16px 0px var(--amarelogemal);
+  }
+  
+  .dropdown-content a {
+    color: var(--amarelogemal);
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+    transition: 0.1s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: var(--amarelogemal);
+    color: #201b2c;
+  }
+  
+  .dropdown-content a:focus {
+    background-color: #201b2c;
+    color: var(--amarelogemal);
+  }
+  
+  .dropdown-content #top:hover {
+    border-radius: 0px 13px 0px 0px;
+  }
+  
+  .dropdown-content #bottom:hover {
+    border-radius: 0px 0px 13px 13px;
+  }
+  
+  .paste-button:hover button {
+    border-radius: 15px 15px 0px 0px;
+  }
+  
+  .paste-button:hover .dropdown-content {
+    display: block;
+  }
+
+.gem1{
+    border-radius: 0px 11px 0px 0px;
+}
+
+.gem2{
+    border-radius: 0px;
+}
+
+.gem3{
+    border-radius: 0px 0px 11px 11px;
+}
+.gema{
+  color: var(--amarelogemal);
+  font-family: "Acme", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.gema div{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex: 0 1 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.gema div p{
+  text-align: center;
+  margin-bottom: 0%;
+}
