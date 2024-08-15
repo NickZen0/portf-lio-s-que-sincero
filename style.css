@@ -5,6 +5,7 @@
 :root {
     --amarelogemal: #d6d670;
     --roxogemal: #a060e0;
+    --trimes: #F79F79;
 }
 
 body{
@@ -101,8 +102,13 @@ a{
 }
 
 .gem3{
-    border-radius: 0px 0px 11px 11px;
+  border-radius: 0px 0px 11px 11px;
 }
+
+.gem4{
+  border-radius: 0px 11px 11px 11px;
+}
+
 .gema{
   color: var(--amarelogemal);
   font-family: "Acme", sans-serif;
@@ -124,4 +130,49 @@ a{
 .gema div p{
   text-align: center;
   margin-bottom: 0%;
+}
+
+.gemb{
+  border-radius: 16px;
+  background-color:var(--amarelogemal);
+  box-shadow: 0px 5px 40px -12px var(--amarelogemal);
+  margin: auto;
+}
+
+.gemb:hover{
+  border-radius: 16px;
+  background-color:var(--amarelogemal);
+  box-shadow: 0px 10px 80px -24px var(--amarelogemal);
+  margin: auto;
+  cursor: pointer;
+}
+
+.gemlogo{
+  height: 72px;
+  margin: 5px;
+}
+
+.gemlogo:hover{
+  height: 72px;
+  cursor: pointer;
+  background-color:var(--amarelogemal);
+  box-shadow: 0px 5px 40px -12px var(--amarelogemal);
+  border-radius: 42px;
+}
+
+.gemdiva{
+  display: flex;
+  flex-direction: row;
+}
+
+.gemtrab:hover{
+  color: var(--roxogemal);
+  text-shadow: 0px 5px 40px -12px var(--amarelogemal);
+} 
+
+.gemtri{
+  margin-top: 7rem;
+  text-align: center;
+  color: var(--trimes);
+  font-size: 25px;
 }
