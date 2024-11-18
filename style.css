@@ -176,3 +176,10 @@ a{
   color: var(--trimes);
   font-size: 25px;
 }
+
+.gemesp{
+  margin-top: 2rem;
+  text-align: center;
+  color: var(--trimes);
+  font-size: 25px;
+}
